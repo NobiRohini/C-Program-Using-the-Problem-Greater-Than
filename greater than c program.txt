@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+int a,b,c;
+
+printf("Enter the value of a\n");
+scanf("%d", &a);
+printf("\nEnter the Value of b\n");
+scanf("%d", &b);
+
+printf("The value of a is %d\n", a);
+printf("The vakue of b is %d\n", b);
+c=a+b;
+printf("the sum of a+b is %d\n",c);
+if(a>b) 
+{
+printf("the value of a is greater\n");
+printf("the value of b is lesser\n");
+}
+
+else{
+printf("the value of b is greater\n");
+printf("the value of a is lesser\n");
+}
+return 0;
+
+}
